@@ -1,8 +1,8 @@
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace KafkaMSSQL.Models
 {
-    using System.ComponentModel.DataAnnotations;
-    using System.ComponentModel.DataAnnotations.Schema;
-
     [Table("vwMaxOffsetByPartitionAndTopic")]
     public partial class vwMaxOffsetByPartitionAndTopic
     {
